@@ -28,6 +28,7 @@ class profile::elasticsearch::install (
   String $aws_region             = '',
   ){
 
+  include stdlib
   #Estimate max heap size
   $maximum_heap_size = floor($::memorysize_mb / 2.0)
   if $maximum_heap_size > 30000 {
