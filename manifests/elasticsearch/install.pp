@@ -4,7 +4,7 @@
 #
 # Usage: just include it in your role. Configure values in Hiera.
 
-class profile_elasticsearch::install (
+class profile::elasticsearch::install (
   String $ensure                 = '',
   String $version                = '',
   String $status                 = '',
