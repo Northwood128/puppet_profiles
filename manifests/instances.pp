@@ -1,4 +1,4 @@
-class profile::elasticsearch::instance (
+class profile_elasticsearch::instance (
 
   String $instance_name          = '',
   String $instance_config        = '',
